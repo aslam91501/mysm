@@ -5,3 +5,13 @@
 .default-gradient{
     @apply bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-400 to-emerald-400
 }
+
+.gradient-text{
+    @apply text-transparent bg-clip-text default-gradient
+}
+
+.hover-gradient-text{
+    @apply hover:text-transparent hover:bg-clip-text 
+    hover:bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))]
+    hover:from-blue-400 hover:to-emerald-400
+}
