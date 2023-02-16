@@ -7,16 +7,16 @@ export default function TrendingPostsPage(){
     return <>
         <div className="flex flex-col gap-5">
             <section className="basis-20 flex items-center justify-center gap-2">
-                <button className="btn icon-btn bg-white border-gray-600 shadow-sm text-teal-500 hover:translate-y-[-3px]
+                <button className="btn icon-btn default-gradient text-white border-gray-600 shadow-sm hover:translate-y-[-3px]
                     transition-all">
-                    <span className="text-teal-500">
+                    <span>
                         <AiOutlineFire />
                     </span>
                     <span>
-                        Trending
+                        Trending 
                     </span>
                 </button>
-                <button className="btn icon-btn default-gradient text-white border-gray-600 shadow-sm hover:translate-y-[-3px]
+                <button className="btn icon-btn bg-white border-gray-600 shadow-sm text-teal-500 hover:translate-y-[-3px]
                     transition-all">
                     <span>
                         <AiOutlineClockCircle />
