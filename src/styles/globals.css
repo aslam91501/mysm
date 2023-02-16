@@ -15,3 +15,11 @@
     hover:bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))]
     hover:from-blue-400 hover:to-emerald-400
 }
+
+.btn{
+    @apply px-5 py-2 text-sm  rounded-full
+}
+
+.icon-btn{
+    @apply flex items-center gap-2
+}

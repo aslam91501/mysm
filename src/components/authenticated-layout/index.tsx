@@ -10,11 +10,11 @@ interface Props{
 export const AuthenticatedLayout = (props: Props) => {
     return <>
         <div className='default-gradient pt-5 px-5 bg-no-repeat min-h-screen'>
-            <div className="bg-white shadow-lg min-h-screen w-full flex">
+            <div className="bg-white rounded-2xl shadow-lg min-h-screen w-full flex">
                 <Sidebar />
-                <div className="flex flex-col flex-1">
+                <div className="flex flex-col flex-1 bg-gray-50 rounded-tr-2xl">
                     <Navbar />
-                    <main className="bg-gray-50 flex-1">
+                    <main className="flex-1">
                         { props.children }
                     </main>
                 </div>
